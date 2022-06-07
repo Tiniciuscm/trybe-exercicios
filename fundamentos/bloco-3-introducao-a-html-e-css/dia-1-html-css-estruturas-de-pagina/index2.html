@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0026)http://127.0.0.1:5500/#rod -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <title>HTML</title>
   </head>
   <body>
     <h1>Exercícios</h1>
     <h2>Lista de pessoas que fiz amizade na Trybe</h2>
-    <li><a href="#dan">Danilo Cardoso</a></li>
-    <li><a href="#vic">Victor Mendes</a></li>
-    <li><a href="#rod">Rodrigo Gomide</a></li>
-    <h3><a href="http://google.com.br" target="_blank">Google</a></h4>
+    <li><a href="http://127.0.0.1:5500/#dan">Danilo Cardoso</a></li>
+    <li><a href="http://127.0.0.1:5500/#vic">Victor Mendes</a></li>
+    <li><a href="http://127.0.0.1:5500/#rod">Rodrigo Gomide</a></li>
+    <h3><a href="http://google.com.br/" target="_blank">Google</a></h3>
     <h3>Descobrimos algumas coisas em comum:</h3>
-    <img src="https://www.tibiawiki.com.br/images/5/52/Tibia_Logo.png">
-    <img src="cs.png" width="300">
+    <img src="./index2_files/Tibia_Logo.png">
+    <img src="./index2_files/cs.png" width="300">
     <p id="dan">Danilo Cardoso Danilo CardosoDanilo CardosoDanilo CardosoDanilo CardosoDanilo CardosoDanilo Cardoso Danilo Cardoso Danilo Cardoso<br>
         Danilo Cardoso Danilo CardosoDanilo CardosoDanilo CardosoDanilo CardosoDanilo CardosoDanilo Cardoso Danilo Cardoso Danilo Cardoso<br>
         Danilo Cardoso Danilo CardosoDanilo CardosoDanilo CardosoDanilo CardosoDanilo CardosoDanilo Cardoso Danilo Cardoso Danilo Cardoso<br>
@@ -29,7 +29,7 @@
         Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes <br>
         Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes Victor Mendes <br>
     </p>
-    <p id=""rod">
+    <p id="" rod"="">
         Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide <br>
         Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide <br>
         Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide <br>
@@ -38,5 +38,42 @@
         Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide Rodrigo Gomide<br>
         
     </p>
-  </body>
-</html>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
