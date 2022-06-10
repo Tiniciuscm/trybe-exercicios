@@ -1,0 +1,66 @@
+header {
+    background-color: black;
+    color: white;
+    font-size: 75px;
+    width: 80%;
+    margin: 8px;
+    border-style: solid;
+    border-color: red;
+}
+
+body {
+    background-color: beige;
+}
+nav {
+    background-color: pink;
+    font-size: 120px;
+    color: brown;
+    width: 80%;
+    margin: 8px;
+    border-style: solid;
+    border-color: rgb(255, 95, 121);
+}
+
+aside {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: yellow;
+    width: 15%;
+    height: 97%;
+    margin: 8px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+section {
+    background-color: aqua;
+    width: 80%;
+    font-size: 100px;
+    margin: 8px;
+    height: 300px;
+    border-style: solid;
+    border-color: red;
+    color: black;
+    text-align:left;
+}
+
+footer {
+    background-color: blueviolet;
+    width: 80%;
+    font-size: 40px;
+    margin: 8px;
+    height: 135px;
+    border-style: solid;
+    color: white;
+    border-color: red;
+}
+
+#test {
+    border-style: solid;
+    border-color: black;
+    width: 80%;
+    height: 80%;
+    font-size: 40px;
+}
